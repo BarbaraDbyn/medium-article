@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro:400,600i,700,900|Farro:300,400,500,700&display=swap');
+
+body{
+  margin: 0;
+}
+
+a{
+  color: black;
+  background-color: rgb(208, 213, 240);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  /*margin: auto;*/
+  /*margin: 10 auto;*/
+}
+
+a:hover{
+  background-color: rgb(217, 175, 235);
+}
+
+div{
+  display: block;
+}
+
+.banner{
+  background-image: url("https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80");
+  background-size: cover;
+  padding: 90px 0px;
+  /*position: fixed;*/
+}
+
+.banner .container p{
+  font-family: 'Crimson Pro', serif;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+}
+
+.container h1{
+  font-family: 'Farro', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container h2{
+  font-family: 'Crimson Pro', serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(209, 206, 223);
+}
+
+.container p{
+  font-family: 'Farro', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300px;
+  line-height: 1.6;
+}
+
+.container{
+  width: 700px;
+  margin: 50 auto;
+  position: relative;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+    font-size: 16;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    font-size: 15;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    font-size: 13;
+  }
+}
+
+
